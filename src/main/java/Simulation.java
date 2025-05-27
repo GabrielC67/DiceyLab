@@ -33,11 +33,14 @@ public class Simulation {
     }
 
     public static void main(String[] args){
-        Simulation sim = new Simulation(2, 1000000);
+        Simulation sim2Dice = new Simulation(2, 1000000);
+        Simulation sim5Dice = new Simulation(5, 1000000);
 
-        sim.runSimulation();
+        sim2Dice.runSimulation();
+        sim2Dice.printResults();
 
-        sim.printResults();
+        sim5Dice.runSimulation();
+        sim5Dice.printResults();
     }
 
 }
