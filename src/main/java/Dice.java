@@ -1,9 +1,8 @@
 import java.util.Random;
 
 public class Dice {
-    private int diceNumber;
-    private Dice dice;
-    private Random randomNum;
+    private final int diceNumber;
+    private final Random randomNum;
 
     public Dice(int diceNumber){
         this.diceNumber = diceNumber;

@@ -1,8 +1,8 @@
 
 public class Bins {
-    private int[] bins;
-    private int min; //For each number of Dice, there is a minimum value (sum)
-    private int max; //For each number of dice, there is a maximum value (sum)
+    private final int[] bins;
+    private final int min; //For each number of Dice, there is a minimum value (sum)
+    private final int max; //For each number of dice, there is a maximum value (sum)
 
     //Constructor
     public Bins(int min, int max){
